@@ -1,0 +1,409 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+  background-color: #13172c;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+#logoimg {
+  z-index: 1000;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.container h1 p {
+  z-index: 10;
+}
+
+.rectangle {
+  position: absolute;
+  width: 740px;
+  height: 400px;
+  background-color: #0b0c1b;
+  opacity: 0.7;
+  border-radius: 30px;
+  margin: 195px 300px;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(Images/WhatsApp\ Image\ 2022-04-07\ at\ 10.13.03\ AM\ \(1\).jpeg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+  zoom: 0.5;
+}
+
+.header-left {
+  margin-left: 50px;
+  float: left;
+}
+
+.header-right {
+  zoom: 1.1;
+  float: right;
+  margin-right: 50px;
+}
+
+.header-right a {
+  margin-top: 5px;
+  line-height: 65px;
+  padding: 0 23px;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+  height: 73px;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-top: -2px;
+  height: 75px;
+}
+
+.menu-icon{
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+.lesson-wrapper {
+  margin-top: -10px;
+  padding-bottom: 80px;
+  padding-left: 0%;
+  padding-right: 0%;
+  background-color: #13172c;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #5f5d60;
+  background-color: #525c72;
+  opacity: 0.6;
+  background-size: cover;
+  z-index: -1;
+}
+
+h2 .heading {
+  font-weight: normal;
+  z-index: 5;
+  opacity: 1;
+
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.lesson img {
+  width: 100%;
+  height: 100%;
+}
+
+.lesson-icon4 img{
+  object-fit: unset;
+  height: 253px;
+}
+
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading h2 {
+  color: white;
+  font-size: 50px;
+}
+
+.heading h3 {
+  font-weight: normal;
+  color: white;
+  z-index: 10;
+}
+
+.message-wrapper {
+  border-bottom: 5px solid #eee;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #13172c;
+}
+
+.social-media {
+  float: left;
+  margin: -19px 30px 30px 295px;
+}
+
+.rectangle-info {
+  position: relative;
+  width: 24.5%;
+  height: 500px;
+  background-color: #0b0c1b;
+  opacity: 0.7;
+  border-radius: 30px;
+  float: left;
+  padding: 50px 50px;
+  margin: 120px 3px; 
+}
+
+.rectangle-info img {
+  background-color: white;
+  padding: 8px 8px;
+  border-radius: 30px;
+  width: 240px;
+  height: 200px;
+}
+
+.rectangle-info p {
+  font-family: Georgia;
+  text-align: center;
+  color: white;
+}
+
+.rectangle-info .nama-item {
+  float: left;
+}
+
+.rectangle-info .jumlah-item {
+  float: right;
+}
+
+.rectangle-info .ket-item {
+    margin: 90px 50px;
+}
+
+.edit {
+  border-bottom: 5px solid #eee;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#button1 {
+  margin: 0 46.7%;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px 30px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+#button1:active{
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+#button2 {
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px 30px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+#button2:active{
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.pos-button {
+  margin-top: 1rem;
+  margin-left: 4.5rem;
+}
+
+.edit h3 {
+  font-family: 'Georgia';
+  text-align: center;
+  color: white;
+}
+
+.boxedit {
+  pointer-events: none;
+  display: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  position: fixed;
+  background-color: rgba(34, 49, 52, 0.9);
+  padding: 50px 50px;
+  border-radius: 30px;
+  z-index: 10;
+}
+
+.boxedit.show {
+  pointer-events: auto;
+  display: block;
+}
+
+label {
+  display: inline-block;
+  margin-top: 10px;
+  width: 100px;
+}
+
+.close {
+  float: right;
+  margin-top: -2rem;
+  margin-right: -2rem;
+}
+
+.identitas ol {
+  margin: 1rem -10px;
+  color: white;
+  font-family: "Georgia";
+}
+
+.judul {
+  margin-top: 7rem;
+  margin-left: 10px;
+  color: white;
+  font-family: "Georgia";
+}
+
+.bawah {
+  background-color: #0b0c1b;
+  padding-bottom: 50px;
+}
+
+.video-link {
+  margin-left: 10px;
+  margin: 0 46.7%;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px 30px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.video-link:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
